@@ -1,0 +1,13 @@
+AVANTI,OMV;pohonne hmoty
+TESCO,TERNO,KAUFLAND,LIDL;potraviny
+RTVS,SPP,ZSE ENERGIA;naklady-byt
+Ticketportal;koncerty
+AXA konto;investicia
+Inkaso splátky úveru;uver-auto
+HYPOTEKARNE A SPOTREBNE UVERY;hypoteka
+ATM;vyber cash
+O2 Slovakia;telefon
+Vedenie konta flexiúčet;Vedenie konta flexiúčet
+PIANOMEDIA;PIANO
+PROJEKT-N;PROJEKT N
+C & A Mode;oblecenie

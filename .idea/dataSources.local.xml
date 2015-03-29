@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="H2 - moneygo" uuid="db19eb27-eb80-4534-9cce-ae5c18273ddf">
+      <secret-storage>master_key</secret-storage>
+      <user-name>moneygo</user-name>
+      <schema-pattern>MONEYGO.PUBLIC</schema-pattern>
+      <default-schemas>MONEYGO.PUBLIC</default-schemas>
+    </data-source>
+  </component>
+</project>
