@@ -8,7 +8,8 @@
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:/WEB-INF/spring/root-context.xml,
-            classpath:/WEB-INF/spring/appServlet/controllers.xml
+            classpath:/WEB-INF/spring/controllers.xml,
+            classpath:/WEB-INF/spring/data.xml
         </param-value>
     </context-param>
 
@@ -17,7 +18,7 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
 
-        <filter>
+       <!-- <filter>
             <filter-name>csrfFilter</filter-name>
             <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
             <async-supported>true</async-supported>
@@ -25,7 +26,7 @@
         <filter-mapping>
             <filter-name>csrfFilter</filter-name>
             <url-pattern>/*</url-pattern>
-        </filter-mapping>
+        </filter-mapping>-->
 
     <!--     Processes application requests -->
     <servlet>

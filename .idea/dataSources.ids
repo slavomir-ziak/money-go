@@ -7,9 +7,9 @@
     <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
     <schema name="PUBLIC" catalog="MONEYGO"/>
     <table name="BANK_TRANSACTION" schema="PUBLIC" catalog="MONEYGO" type="TABLE">
-      <column name="ID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" def="KE5FWFQgVkFMVUUgRk9SIFBVQkxJQy5TWVNURU1fU0VRVUVOQ0VfQkI4QjA2MDBfNjBGMV80MTZCX0E0NDRfREM0REMzQkE4MjM4KQ==" autoIncrement="true"/>
+      <column name="ID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" def="KE5FWFQgVkFMVUUgRk9SIFBVQkxJQy5TWVNURU1fU0VRVUVOQ0VfN0RGRUQ4MzhfMDkwRF80RkI4X0JBMTlfQ0M5NUNERTMzQTFFKQ==" autoIncrement="true"/>
       <column name="DATA" sqlType="VARCHAR" precision="4000" scale="0" nullable="true" jdbcType="12"/>
-      <column name="AMOUNT" sqlType="DECIMAL" precision="65535" scale="32767" nullable="true" jdbcType="3"/>
+      <column name="AMOUNT" sqlType="DECIMAL" precision="20" scale="4" nullable="true" jdbcType="3"/>
       <column name="CATEGORY" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12"/>
     </table>
   </data-source>

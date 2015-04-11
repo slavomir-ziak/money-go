@@ -59,4 +59,14 @@ public class BankTransaction {
     public void setAmount(BigDecimal amount) {
         this.amount = amount;
     }
+
+    @Override
+    public String toString() {
+        return "BankTransaction{" +
+                "id=" + id +
+                ", data='" + data + '\'' +
+                ", category='" + category + '\'' +
+                ", amount=" + amount +
+                '}';
+    }
 }

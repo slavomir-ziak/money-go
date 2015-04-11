@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="money-go">
+<head>
+    <meta charset="UTF-8">
+    <title>Money-go</title>
+    <link rel="stylesheet" href="./app.css"/>
+</head>
+<body>
+<div ng-controller="MoneyGoCtrl" id="mainWrapper">
+    <h1>MoneyGo start</h1>
+
+    <div id="startPage" ng-show="currentSection=='nonCategorized'">
+        <div ng-repeat="trans in NoncategorisedBankTransactions">
+
+            <p>
+                {{trans.data}}
+            </p>
+
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+
+<script src="app.js"></script>
+</body>
+</html>
